@@ -12,6 +12,19 @@
  }
 
 
+ /**
+  * load view 
+
+
+  */
+
+
+  function loadview ($name){
+
+    require basePath('views/{$name}.view.php');
+
+
+  }
 
 
 ?>
